@@ -8,6 +8,7 @@ return a - b
 
 const multiplicar = (a, b) => {
 return a * b
+const resultadoDeMultiplicar = (a, b)
 }
 
 const dividir = (a, b) => {
@@ -15,7 +16,10 @@ return a / b
 }
 
 const porcentaje = (a, b) => {
-    return (a / b) * 100
+const resultadoDeMultiplicar = multiplicar(a, b)
+const resultadoDeDividir = dividir(resultadoDeMultiplicar, 100)
+    return resultadoDeDividir
 }
 
-console.log(porcentaje(20, 100)) 
+console.log(porcentaje(20, 100))
+
